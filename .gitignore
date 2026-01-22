@@ -1,0 +1,9 @@
+.idea/
+cmake-build-debug/
+*.o
+*.obj
+*.exe
+*.out
+OutputImages/
+*.bmp
+!sample.bmp
