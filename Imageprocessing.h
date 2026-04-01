@@ -36,7 +36,6 @@ typedef struct
 }Image;
 Image ProcessImage(const char* filename);
 void FreeImage(const Image* image);
-void Createpath(char* buffer,const char* filename);
 void SaveImage(const char* filename,const Image* MyImage);
 Image Grayscale(const Image* MyImage);
 Image Invertedimage(const Image* MyImage);
